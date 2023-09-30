@@ -1,0 +1,171 @@
+body{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabeza{
+    background: #1f2937;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    padding: 0 16px;
+    height: 72px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.logo{
+    margin-right: auto;
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Links{
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+a{
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+h2{
+    width: 600px;
+}
+
+#ini{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+    margin: 0;
+}
+.Introduction{
+    background: #1f2937;
+    color:#f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    background: #1f2937;
+    justify-content: space-around;
+    height: 500px;
+}
+
+img{
+    width: 300px;
+    flex-shrink: 0;
+    display: flex;
+    margin-bottom: 22px;
+}
+
+button.inicial{
+    background-color: #3882F6;
+    border: 1px solid #2e518b;
+    padding: 10px;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: 900;
+    font-size: 19px;
+    margin-bottom: 16px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.panel{
+    display: flex;
+}
+
+.mostrador{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Hl{
+    border: 5px solid  rgb(45, 126, 180);
+    height: 250px;
+    width: 250px;
+    border-radius: 40px;
+}
+
+
+
+
+.cita{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-weight: 24px;
+    font-size: large;
+    height: 100px;
+}
+
+.espacio{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.modal{
+    background-color: #3882F6; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    border-radius: 10px;
+    margin-top: 120px;
+    height: 150px;
+}
+
+#borde{
+    background: #3882F6;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    width: 150px;
+    height: 44px;
+    color: white;
+    font-size: 17px;
+
+
+}
+
+
+
+#cabe{
+font-weight: bolder;
+font-size: 25px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#subtex{
+    font-weight: 300;
+    font-size: 15px;
+    color: #f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+p{
+    margin-left: 40px;
+}
